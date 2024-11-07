@@ -395,9 +395,33 @@ input:checked + label.project-card {
   .nav-item a {
     color: whitesmoke;
   }
+  .key {
+    font-size: 30px !important;
+    display: inline-block;
+    letter-spacing: -5px;
+    transition: transform 0.2s;
+    margin-bottom: 10px !important;
+  }
+  .cursor {
+    font-size: 18px !important; 
+    width: 100%; 
+    white-space: normal;
+    text-align: left;
+  }
 }
 
 @media (max-width: 800px) {
+  .key {
+    font-size: 35px !important;
+    display: inline-block;
+    letter-spacing: -5px;
+    transition: transform 0.2s;
+    margin-bottom: 10px !important;
+  }
+  .cursor {
+    font-size: 20px !important;
+    text-align: left; 
+  }
   main {
     padding-top: 60px;
   }
@@ -655,7 +679,7 @@ input:checked + label.project-card {
 /*ANIMATION TEXT*/
 .cursor {
   position: relative;
-  width: 10em;
+  width: auto;
   margin: 0 auto;
   border-right: 2px solid rgba(0, 0, 0, 0.75);
   font-size: 25px;

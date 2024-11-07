@@ -347,6 +347,12 @@ input:checked + label .project-description {
   .nav-item a {
     color: rgb(0, 0, 0);
   }
+  .navbarNav.collapse {
+    display: none !important;
+  }
+  .navbarNav.collapse.show {
+    display: block !important;
+  }
 }
 
 @media (max-width: 800px) {

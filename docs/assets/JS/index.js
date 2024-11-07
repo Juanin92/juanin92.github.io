@@ -1,13 +1,16 @@
-document.addEventListener("DOMContentLoaded", function () {
-  const toggler = document.querySelector(".navbar-toggler");
-  const mainContent = document.querySelector("main");
+// document.addEventListener("DOMContentLoaded", function () {
+//   const toggler = document.querySelector(".navbar-toggler");
+//   const mainContent = document.querySelector("main");
 
-  toggler.addEventListener("click", function () {
-    if (window.innerWidth < 576) {
-      mainContent.classList.toggle("main-shifted"); 
-    }
-  });
-});
+//   navbarNav.classList.remove("show");
+//   toggler.setAttribute("aria-expanded", "false");
+
+//   // Evento de clic para manejar el despliegue manual
+//   toggler.addEventListener("click", function () {
+//     const isExpanded = toggler.getAttribute("aria-expanded") === "true";
+//     toggler.setAttribute("aria-expanded", !isExpanded); // Cambia el valor de aria-expanded
+//   });
+// });
 
 document.addEventListener("DOMContentLoaded", function () {
   const visibilityToggle = document.getElementById("themeToggle");
