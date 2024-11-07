@@ -26,10 +26,10 @@ document.addEventListener("DOMContentLoaded", function () {
 
       const icon = document.getElementById("iconVisibility");
       if (!darkTheme.disabled) {
-        icon.src = "/docs/assets/Image/Icons/sun.png";
+        icon.src = "assets/Image/Icons/sun.png";
         icon.alt = "sun.png";
       } else {
-        icon.src = "/docs/assets/Image/Icons/moon.png";
+        icon.src = "assets/Image/Icons/moon.png";
         icon.alt = "moon.png";
       }
     });
