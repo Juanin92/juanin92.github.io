@@ -355,15 +355,6 @@ input:checked + label.project-card {
   background-size: 100%;
   background-position: center;
 }
-.project-card[for="c1"] {
-  background-image: url("/docs/assets/Image/IMG/AlkeWallet.jpeg");
-}
-.project-card[for="c2"] {
-  background-image: url("/docs/assets/Image/IMG/EmployeeSys.jpg");
-}
-.project-card[for="c3"] {
-  background-image: url("/docs/assets/Image/IMG/logoPro.jpeg");
-}
 #projectTitle {
   font-size: 40px;
   text-transform: uppercase;
